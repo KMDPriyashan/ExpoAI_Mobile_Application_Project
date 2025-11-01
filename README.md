@@ -39,14 +39,14 @@ ExpoAI will offer the following core functionalities:
 
 This project is built using modern, stable, and scalable technologies best suited for native Android development.
 
-Component	Technology	Role
+      Component	                  Technology	                                          Role
 
-Mobile Language            	Kotlin            	                            Primary language for native Android development. Ensures type safety and conciseness.
-Framework                  	Android SDK	                                    Core components and tools for building the application.
-UI/UX	                      Jetpack Compose    	                            Declarative and modern UI framework for building responsive interfaces.
-State Management          	Kotlin Flow        	                            Handling data streams and state across the application.
-Backend & Database        	Firebase (Firestore, Authentication)	          Scalable, real-time NoSQL database for tool data, user profiles, and ratings.
-mage Loading               	Coil/Glide	                                    Efficient and lightweight image loading for tool icons and screenshots.
+      Mobile Language            	Kotlin            	                         Primary language for native Android development. Ensures type safety and conciseness.
+      Framework                  	Android SDK	                                  Core components and tools for building the application.
+      UI/UX	                      Jetpack Compose    	                            Declarative and modern UI framework for building responsive interfaces.
+      State Management          	Kotlin Flow        	                            Handling data streams and state across the application.
+      Backend & Database        	Firebase (Firestore, Authentication)	          Scalable, real-time NoSQL database for tool data, user profiles, and ratings.
+      image Loading               Coil/Glide	                                  Efficient and lightweight image loading for tool icons and screenshots.
 
 
 
@@ -54,16 +54,20 @@ mage Loading               	Coil/Glide	                                    Effic
 
 📁 Project Structure
 The project follows a modular, clean architecture pattern (e.g., MVVM) to ensure maintainability and testability.
-ExpoAI/
-├── app/
-│   ├── src/main/kotlin/com/expoai/app/
-│   │   ├── data/       # Repositories, Database Models (Firestore/Local)
-│   │   ├── di/        # Dependency Injection modules (Hilt)
-│   │   ├── domain/    # Use Cases, Business Logic
-│   │   ├── presentation/ # UI Screens, ViewModels, Composables
-│   │   └── util/      # Constants, Extensions, Helper classes
-│   └── google-services.json # Firebase configuration
-└── build.gradle.kts   # Project level configuration
+
+
+      ExpoAI/
+   
+         app/
+            src/main/kotlin/com/expoai/app/
+               data/       # Repositories, Database Models (Firestore/Local)
+               di/        # Dependency Injection modules (Hilt)
+               domain/    # Use Cases, Business Logic
+               presentation/ # UI Screens, ViewModels, Composables
+               util/      # Constants, Extensions, Helper classes
+         
+            google-services.json # Firebase configuration
+         build.gradle.kts   # Project level configuration
 
 
 
@@ -85,9 +89,9 @@ The following features are planned for future iterations to expand the platform'
 This project was developed by the following team members:
 
                Name                                  Index Number
-      K.M Dulash Priyashan	                        GWU-HICT-2021-09
-      R.A.R Viduranga	                           GWU-HICT-2021-18
-      S.T Dharmasena	                              GWU-HICT-2021-51
-      S.S.D Karunarathna	                        GWU-HICT-2020-31
-      M.K.D.G Thathsarani	                        GWU-HICT-2021-11
+      K.M Dulash Priyashan	                      GWU-HICT-2021-09
+      R.A.R Viduranga	                         GWU-HICT-2021-18
+      S.T Dharmasena	                            GWU-HICT-2021-51
+      S.S.D Karunarathna	                      GWU-HICT-2020-31
+      M.K.D.G Thathsarani	                      GWU-HICT-2021-11
 
