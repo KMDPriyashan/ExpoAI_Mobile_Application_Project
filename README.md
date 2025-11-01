@@ -84,10 +84,10 @@ The following features are planned for future iterations to expand the platform'
 
 This project was developed by the following team members:
 
-      Name                                       Index Number
-K.M Dulash Priyashan	                        GWU-HICT-2021-09
-R.A.R Viduranga	                              GWU-HICT-2021-18
-S.T Dharmasena	                              GWU-HICT-2021-51
-S.S.D Karunarathna	                          GWU-HICT-2020-31
-M.K.D.G Thathsarani	                          GWU-HICT-2021-11
+               Name                                  Index Number
+      K.M Dulash Priyashan	                        GWU-HICT-2021-09
+      R.A.R Viduranga	                           GWU-HICT-2021-18
+      S.T Dharmasena	                              GWU-HICT-2021-51
+      S.S.D Karunarathna	                        GWU-HICT-2020-31
+      M.K.D.G Thathsarani	                        GWU-HICT-2021-11
 
